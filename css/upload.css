@@ -21,7 +21,11 @@ input, select, textarea{
     border-radius: 0.3rem;
     cursor: pointer;
 }
-  
+  #choose{
+    color: black;
+    font-size:1.5rem;
+    margin: 0px 0px 0px 5px;
+  }
   .container-1 {
   border-radius: 5px;
   padding: 10px;
