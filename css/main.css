@@ -339,5 +339,8 @@ nav ul li:hover div{
     .box-2 ul li a i{
         padding: 8px;
     }
+    #loader{
+        background-position: 30% 20%;
+    }
   }
 
