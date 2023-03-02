@@ -13,7 +13,7 @@
     }
 
 
-
+    
     function toggleNav() {
         var x = document.getElementById("toggle");
         if (x.style.display === "block") {
@@ -94,23 +94,13 @@ includeHTML();
 var myVar;
 
 function myFunction() {
-  myVar = setTimeout(showPage, 3000);
+  myVar = setTimeout(showPage, 2000);
 }
 
 function showPage() {
   document.getElementById("loader").style.display = "none";
   document.getElementById("myDiv").style.display = "block";
 }
-
-// To write the text in the choose file
-let file = document.getElementById("actual-btn");
-console.log(file);
-let print = document.getElementById("choose");
-file.addEventListener('change', function(){
-  let text = file.value;
-  text = text.replace("C:\\fakepath\\","");
-  print.innerHTML = text;
-})
 
 
 
