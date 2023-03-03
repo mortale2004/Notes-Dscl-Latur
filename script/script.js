@@ -1,27 +1,25 @@
-      
-    window.onscroll = function() {myFunction()};
-    
-    var navbar = document.getElementById("navbar");
-    var sticky = navbar.offsetTop;
-    
-    function myFunction() {
-      if (window.pageYOffset >= sticky) {
-        navbar.classList.add("sticky");
-      } else {
-        navbar.classList.remove("sticky");
-      }
+
+window.onscroll = function() {navsticky()};
+
+let navbar = document.getElementById("navbar");
+let sticky = navbar.offsetTop;
+
+function navsticky() {
+  if (window.pageYOffset > sticky) {
+    navbar.classList.add("sticky")
+  } else {
+    navbar.classList.remove("sticky");
+  }
+};
+
+function toggleNav() {
+    var x = document.getElementById("toggle");
+    if (x.style.display === "block") {
+      x.style.display = "none";
+    } else {
+      x.style.display = "block";
     }
-
-
-    
-    function toggleNav() {
-        var x = document.getElementById("toggle");
-        if (x.style.display === "block") {
-          x.style.display = "none";
-        } else {
-          x.style.display = "block";
-        }
-      }
+  }
 
 // To drop down notes 
 let drop = document.getElementsByClassName("drop");
@@ -89,7 +87,7 @@ includeHTML();
 
 
 
-// // loader
+// // // loader
 
 var myVar;
 
@@ -100,8 +98,4 @@ function myFunction() {
 function showPage() {
   document.getElementById("loader").style.display = "none";
   document.getElementById("myDiv").style.display = "block";
-}
-
-
-
-
+};
