@@ -5,7 +5,7 @@ let navbar = document.getElementById("navbar");
 let sticky = navbar.offsetTop;
 
 function navsticky() {
-  if (window.pageYOffset > sticky) {
+  if (window.pageYOffset > sticky+95) {
     navbar.classList.add("sticky")
   } else {
     navbar.classList.remove("sticky");
