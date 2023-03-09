@@ -22,7 +22,7 @@ main{
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   font-size: 3rem;
     font-weight: 600;
-    background-image: conic-gradient(#553c9a 30%, #ee4b2b 40%, #ee4b2b 70%, #00c2cb 80%, #553c9a);
+    background-image: linear-gradient(to left, #ff5900, #770be3);
     color: transparent;
     background-clip: text;
     -webkit-background-clip: text;
@@ -109,6 +109,3 @@ table,tr,td,th{
     flex-direction: column;
   }
 }
-
- 
- 
