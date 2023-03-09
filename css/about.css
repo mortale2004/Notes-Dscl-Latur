@@ -78,7 +78,20 @@ main{
   margin: 0rem 0rem 3rem 0rem;
   align-items: center;
 }
-
+.table{
+  font-size: 2rem;
+  align-items: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+table,tr,td,th{
+  border: 2px solid black;
+  border-collapse: collapse;
+  padding: 3px 5px;
+  text-align: center;
+}
 @media screen and (max-width: 650px) {
   .card{
     width: 80%;
