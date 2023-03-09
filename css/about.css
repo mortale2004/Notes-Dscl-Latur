@@ -66,30 +66,11 @@ main{
  
 
 
-.card img{
-  width: 100%;
-}
-.card {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  display:flex;
-  width: 30%;
-  flex-direction: column;
-}
-
 .container {
   padding: 1.6rem;
   font-family: 'Baloo 2';
 }
-.card h2{
-  font-size: 3rem;
-}
-.card p{
-  font-size: 1.5rem;
-  margin: 5px 0px;
-}
-.title {
-  color: rgb(92, 92, 92);
-}
+
 .our-team{
   display: flex;
   justify-content: space-evenly;
@@ -97,11 +78,7 @@ main{
   margin: 0rem 0rem 3rem 0rem;
   align-items: center;
 }
-.heading{
-  font-size: 4rem;
-  font-family: 'Baloo 2';
-  margin: 3rem 0rem;
-}
+
 @media screen and (max-width: 650px) {
   .card{
     width: 80%;
