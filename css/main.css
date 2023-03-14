@@ -324,6 +324,9 @@ nav ul li:hover div{
     html{
       font-size: 8px;
     }
+    .img-header{
+        margin: 10px 0px 0px 0px;
+    }
     .box-1{
       flex-direction: column;
       width: 50%;
